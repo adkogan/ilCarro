@@ -9,10 +9,10 @@ public class RegistrationTests extends TestBase {
     public void registrationFromHeader(){
      app.getUser().clickSignUpButton();
      app.getUser().fillRegistrationForm(new UserData()
-             .withfName("An")
-             .withlName("Kogan")
-             .withEmail("adkogan+2@gmail.com")
-             .withPassword("123zxc"));
+             .withfName("A")
+             .withlName("Kogann")
+             .withEmail("adkogan+3@gmail.com")
+             .withPassword("12345zxc"));
 
      app.getUser().confirmRegistration();
 
